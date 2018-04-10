@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+}
+
+/* INDEX */
+/* index_top */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	
+}
+ul li {
+	float:left;
+	width:200px;
+	height:60px;
+	font-size:20px;
+}
+     
+   ul li a {
+	   text-decoration:none;
+	   color:pink;
+	   display:block;
+   }
+    
+	   
+
+li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+	
+	
+}
+
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+	
+li a:hover{
+    transform: scale(1.4);
+	background-color:aqua;
+}
